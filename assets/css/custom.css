@@ -1,13 +1,14 @@
 .center {
-	display: block;
-	margin: auto;
-	text-align: center;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 span.caption {
-	display: block;
-	font-size: .9em;
-	text-align: center;
+  display: block;
+  font-size: 0.9em;
+  text-align: center;
 }
-#search-2, .no-comments, #menu-item-10, #menu-item-11 {
-	display: none;
+#search-2,
+.no-comments {
+  display: none;
 }
