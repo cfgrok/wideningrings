@@ -12,3 +12,6 @@ span.caption {
 .no-comments {
   display: none;
 }
+.fslightbox-container {
+  background: #000 !important;
+}
