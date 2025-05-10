@@ -17,7 +17,25 @@ span.caption {
 }
 #description {
   color: #c7cdc2;
+  max-width: 960px;
+  text-align: right;
 }
 header p {
-  margin: 5px 0 0;
+  margin: 15px 0 0;
+}
+header .container {
+  padding: 0;
+}
+@media (max-width: 480px) {
+  header .site-name {
+    width: 100%;
+  }
+  header .site-name img {
+    max-width: 100%;
+  }
+}
+body,
+#content-holder,
+footer #footer-bottom {
+  background-color: #000;
 }
